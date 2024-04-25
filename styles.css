@@ -4,7 +4,7 @@ body, html {
 }
 
 .bg-image {
-  background-image: url('panda.jpg'); /* Replace with your background image path */
+  background-image: url('https://github.com/PandaBarn/As-Builts/blob/main/panda.jpg'); /* Replace with your background image path */
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
