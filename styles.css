@@ -70,3 +70,26 @@ body, html {
   font-size: 16px;
 }
 
+.name-list {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  color: white;
+  max-width: 600px;
+  margin: 50px auto; /* Centering the list horizontally */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.name-list h1 {
+  text-align: center;
+}
+
+.name-list ul {
+  list-style-type: none; /* Removes default list bullets */
+  padding: 0;
+}
+
+.name-list li {
+  margin-bottom: 10px; /* Space between names */
+  font-size: 18px; /* Larger font size for visibility */
+  text-align: center; /* Center text within the list */
+}
