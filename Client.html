@@ -7,12 +7,29 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <input list="clients" id="client-search" name="client-search" placeholder="Type to search...">
+  <input list="clients" id="client-search" name="client-search" placeholder="Type to search..." oninput="showLinks()">
   <datalist id="clients">
     <option value="Archaea">
     <option value="BPX Permian">
     <option value="BPX Eagleford">
     <option value="Ring">
   </datalist>
+  
+  <!-- Container for the links that will appear when "Ring" is selected -->
+  <div id="ring-links" style="display: none;">
+    <a href="#">Penwell-Scharbauer C Battery</a>
+    <a href="#">Bucky B CBT</a>
+    <a href="#">Matador CBT</a>
+    <a href="#">Millard A&D Battery</a>
+    <a href="#">Millard C Battery</a>
+    <a href="#">Millard B Battery</a>
+    <a href="#">Penwell-NPU 1 Satellite</a>
+    <a href="#">Penwell-NPU Battery 5</a>
+    <a href="#">Penwell-NPU Water Station & NPU CTB</a>
+    <a href="#">Penwell-Connell Central Tank Battery</a>
+    <a href="#">Lea PJ 1 Battery</a>
+    <a href="#">Lea PJ 8 Battery</a>
+    <a href="#">Lea PJ 168 Battery</a>
+  </div>
 </body>
 </html>
