@@ -1,35 +1,33 @@
 body, html {
   height: 100%;
   margin: 0;
+  padding: 0;
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .bg-image {
-  background-image: url('https://github.com/PandaBarn/As-Builts/blob/main/panda.jpg'); /* Make sure you have the correct file path and extension */
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url('https://raw.githubusercontent.com/PandaBarn/As-Builts/main/panda.jpg'); /* Updated URL for direct image link */
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
+
 /* Styles for the input with datalist */
 #client-search {
-  width: 100%; /* Adjust width as needed */
+  width: 200px; /* Makes the input field small */
   padding: 8px;
-  margin: 10px 0;
+  margin: 0;
   border: 2px solid black;
   border-radius: 4px;
   font-size: 16px;
-}
-
-/* Style adjustments for a more dropdown-like appearance */
-#client-search::-webkit-calendar-picker-indicator {
-  border: 1px solid black;
-  background: white;
-  border-radius: 2px;
-  cursor: pointer;
-  padding: 5px;
+  background-color: transparent; /* Makes the input field transparent */
+  color: black; /* Text color */
+  outline: none; /* Removes the default focus highlight */
 }
 
 .navigation {
