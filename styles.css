@@ -4,7 +4,7 @@ body, html {
 }
 
 .bg-image {
-  background-image: url('https://github.com/PandaBarn/As-Builts/blob/main/panda.jpg'); /* Replace with your background image path */
+  background-image: url('https://github.com/PandaBarn/As-Builts/blob/main/panda.jpg'); /* Make sure you have the correct file path and extension */
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -29,9 +29,13 @@ body, html {
   text-decoration: none;
 }
 
-.nav-item i {
-  font-size: 24px; /* Adjust icon size to your preference */
-  margin-bottom: 8px;
+.nav-item .triangle {
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 20px solid white; /* This will create a small white triangle */
+  margin-bottom: 8px; /* Space between the triangle and the text */
 }
 
 .nav-item span {
