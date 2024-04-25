@@ -60,20 +60,18 @@ body, html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px;
-  justify-content: center;
-
+  width: 100%; /* Ensures the container takes full width */
+  margin-top: 20px; /* Space below the input field */
 }
 
 #ring-links a {
-  margin: 5px 0;
+  margin: 5px 0; /* Space between each link */
   color: white; /* Or any preferred color */
   text-decoration: none;
   font-size: 16px;
-  justify-content: center;
-  align-items: center;
-
+  text-align: center; /* Centers the text of the links */
 }
+
 
 .name-list {
   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
