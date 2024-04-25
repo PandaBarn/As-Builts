@@ -61,6 +61,8 @@ body, html {
   flex-direction: column;
   align-items: center;
   margin-top: 20px;
+  justify-content: center;
+
 }
 
 #ring-links a {
@@ -68,6 +70,9 @@ body, html {
   color: white; /* Or any preferred color */
   text-decoration: none;
   font-size: 16px;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .name-list {
