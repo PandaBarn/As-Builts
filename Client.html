@@ -33,3 +33,15 @@
   </div>
 </body>
 </html>
+
+<script>
+function showLinks() {
+  var input = document.getElementById('client-search').value;
+  var links = document.getElementById('ring-links');
+  if (input === 'Ring') {
+    links.style.display = 'block'; // Show the links
+  } else {
+    links.style.display = 'none'; // Hide the links
+  }
+}
+</script>
