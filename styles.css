@@ -56,3 +56,17 @@ body, html {
   color: black; /* Text color matches border */
   outline: none;
 }
+#ring-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#ring-links a {
+  margin: 5px 0;
+  color: white; /* Or any preferred color */
+  text-decoration: none;
+  font-size: 16px;
+}
+
