@@ -10,7 +10,7 @@ body, html {
 }
 
 .bg-image {
-  background-image: url('https://raw.githubusercontent.com/PandaBarn/As-Builts/main/panda.jpg'); /* Updated URL for direct image link */
+  background-image: url('https://github.com/PandaBarn/As-Builts/edit/main/panda.html'); /* Updated URL for direct image link */
   display: flex;
   align-items: center;
   justify-content: center;
