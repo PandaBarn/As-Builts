@@ -10,45 +10,45 @@ body, html {
   background-attachment: fixed;
 }
 
-/* General navigation and item styles, if any, put here */
+/* Navigation and items styles */
 .navigation {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-bottom: 20px;
+  padding-bottom: 20px; /* You can adjust this as per your design preference */
 }
 
 .nav-item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: white; /* Adjust based on your color theme */
+  color: white;
   text-decoration: none;
 }
 
-.nav-item span {
-  font-size: 16px;
-}
-/* Triangle icons */
 .nav-item .triangle {
   width: 0;
   height: 0;
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
-  border-bottom: 20px solid white; /* Creates a white downward triangle */
-  margin-bottom: 8px;
+  border-bottom: 20px solid white; /* This will create a small white triangle */
+  margin-bottom: 8px; /* Space between the triangle and the text */
 }
 
-/* Input field styling for client search */
+.nav-item span {
+  font-size: 16px; /* Adjust as per your design needs */
+}
+
+/* Styles for the input with datalist */
 #client-search {
-  width: 200px;
+  width: 200px; /* Adjust width as needed */
   padding: 8px;
-  margin: auto; /* Centers the input field horizontally */
-  display: block; /* Ensures the input is a block element to take margin:auto */
+  margin: 50px auto; /* Centers the input field vertically and horizontally */
+  display: block;
   border: 2px solid black;
   border-radius: 4px;
   font-size: 16px;
-  background-color: transparent;
-  color: black;
+  background-color: transparent; /* Makes the input field transparent */
+  color: black; /* Text color matches border */
   outline: none;
 }
