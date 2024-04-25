@@ -15,7 +15,6 @@
     <option value="Ring">
   </datalist>
   
-  <!-- Container for the links that will appear when "Ring" is selected -->
   <div id="ring-links" style="display: none;">
     <a href="#">Penwell-Scharbauer C Battery</a>
     <a href="#">Bucky B CBT</a>
@@ -34,14 +33,16 @@
 </body>
 </html>
 
-<script>
-function showLinks() {
-  var input = document.getElementById('client-search').value;
-  var links = document.getElementById('ring-links');
-  if (input === 'Ring') {
-    links.style.display = 'block'; // Show the links
-  } else {
-    links.style.display = 'none'; // Hide the links
-  }
-}
-</script>
+ <script>
+    function showLinks() {
+      var input = document.getElementById('client-search').value;
+      var links = document.getElementById('ring-links');
+      
+      if (input === 'Ring') {
+        links.style.display = 'block';
+      } else {
+        links.style.display = 'none';
+      }
+    }
+  </script>
+</body>
