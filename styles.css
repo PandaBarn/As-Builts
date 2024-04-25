@@ -8,14 +8,17 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Navigation and items styles */
 .navigation {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column; /* Stacks the links vertically */
+  justify-content: center;
   align-items: center;
-  padding-bottom: 20px; /* You can adjust this as per your design preference */
 }
 
 .nav-item {
@@ -24,6 +27,7 @@ body, html {
   align-items: center;
   color: white;
   text-decoration: none;
+  margin: 20px 0; /* Adds space between the navigation items */
 }
 
 .nav-item .triangle {
@@ -31,7 +35,7 @@ body, html {
   height: 0;
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
-  border-bottom: 20px solid white; /* This will create a small white triangle */
+  border-bottom: 20px solid white; /* Creates a white triangle */
   margin-bottom: 8px; /* Space between the triangle and the text */
 }
 
